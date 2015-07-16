@@ -13,7 +13,7 @@ from nltk.util import bigrams
 
 def create_feature_vect(file_name):
     """
-    read from a file a list of words needed by the feature extractor
+    reads from a file a list of words needed by the feature extractor
     :param file_name: path of the file containing the words
     :return:feature list
     """
